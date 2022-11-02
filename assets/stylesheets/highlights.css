@@ -1,0 +1,39 @@
+.highlights__header {
+  padding: 48px;
+  text-align: center;
+}
+
+.highlights__header___title {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.highlights__header___description {
+  font-size: 18px;
+}
+
+.highlights__showcase {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 13px;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 80px;
+}
+
+.highlights__showcase___item {
+  background: var(--white-200);
+  height: 302px;
+  position: relative;
+  text-align: center;
+  width: 300px;
+}
+
+.highlights__showcase___image {
+  height: 150px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 250px;
+}

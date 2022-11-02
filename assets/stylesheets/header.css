@@ -1,0 +1,53 @@
+.header__top {
+  background: var(--black-light);
+  color: var(--white);
+  padding: 20px 0;
+  text-align: center;
+}
+
+.header__brand {
+  background: var(--white);
+  color: var(--black-light);
+  font-size: 24px;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.header__banner {
+  background-image: url("/assets/images/wallpaper.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: var(--white);
+  height: 400px;
+  position: relative;
+}
+
+.header__banner___content {
+  left: 70px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 480px;
+  z-index: 2;
+}
+
+.header__banner::after {
+  background: var(--black-light);
+  content: "";
+  inset: 0;
+  opacity: 0.6;
+  position: absolute;
+  z-index: 1;
+}
+
+.header__banner___title {
+  font-size: 32px;
+  margin-bottom: 14px;
+}
+
+.header__banner___description {
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 19px;
+}

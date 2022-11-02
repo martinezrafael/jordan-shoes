@@ -1,0 +1,11 @@
+/* RESET */
+@import "/assets/stylesheets/reset.css";
+
+/* STYLESHEETS */
+@import "/assets/stylesheets/global.css";
+@import "/assets/stylesheets/header.css";
+@import "/assets/stylesheets/highlights.css";
+@import "/assets/stylesheets/footer.css";
+
+/* RESPONSIVE */
+@import "/assets/stylesheets/responsive.css";

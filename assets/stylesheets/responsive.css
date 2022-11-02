@@ -1,0 +1,41 @@
+@media screen and (max-width: 500px) {
+  /* HEADER */
+
+  .header__top {
+    padding: 28px;
+  }
+
+  .header__top___description {
+    font-size: 18px;
+  }
+
+  .header__banner___content {
+    left: 0;
+    padding: 20px;
+    width: 360px;
+  }
+
+  .header__banner___title {
+    font-size: 40px;
+  }
+
+  .header__banner___description {
+    font-size: 20px;
+  }
+
+  /* HIGHLIGHTS */
+
+  .highlights__header {
+    margin-bottom: 38px;
+    padding: 18px 0;
+  }
+
+  .highlights__showcase___item {
+    overflow: hidden;
+    width: 90%;
+  }
+
+  .highlights__showcase {
+    margin-bottom: 50px;
+  }
+}
